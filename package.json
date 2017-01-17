@@ -1,6 +1,6 @@
 {
   "name": "gulp-tasks-azure-publish",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "gulp task for azure plublish",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/nicoandresr/gulp-tasks-azure-publish/issues"
   },
   "homepage": "https://github.com/nicoandresr/gulp-tasks-azure-publish#readme",
-  "devDependencies": {
+  "dependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-zip": "^3.2.0",

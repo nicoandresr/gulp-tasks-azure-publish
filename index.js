@@ -28,4 +28,4 @@ gulp.task('zip', ['server'], function() {
     return gulp.src(['build/**/*']).pipe(zip(options.packageName)).pipe(gulp.dest(options.packagePath));
 });
 
-export default gulp;
+module.exports = gulp;
