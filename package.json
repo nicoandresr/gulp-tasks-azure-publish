@@ -1,0 +1,31 @@
+{
+  "name": "gulp-tasks-azure-publish",
+  "version": "1.0.0",
+  "description": "gulp task for azure plublish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoandresr/gulp-tasks-azure-publish.git"
+  },
+  "keywords": [
+    "gulp",
+    "azure",
+    "publish"
+  ],
+  "author": "nicoandres.rodriguez@bizagi.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicoandresr/gulp-tasks-azure-publish/issues"
+  },
+  "homepage": "https://github.com/nicoandresr/gulp-tasks-azure-publish#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7"
+  }
+}
