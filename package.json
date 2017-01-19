@@ -1,6 +1,6 @@
 {
   "name": "gulp-tasks-azure-publish",
-  "version": "1.0.4",
+  "version": "1.0.12",
   "description": "gulp task for azure plublish",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,8 @@
   "dependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-json-editor": "^2.2.1",
     "gulp-zip": "^3.2.0",
     "minimist": "^1.2.0",
     "path": "^0.12.7"
