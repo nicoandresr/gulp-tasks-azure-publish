@@ -25,6 +25,10 @@ gulp.task('server', ['resources'], function() {
 });
 
 gulp.task('zip', ['server'], function() {
+    return gulp.src(['build/**/*','!build/**/*.map']).pipe(zip(options.packageName)).pipe(gulp.dest(options.packagePath));
+});
+
+gulp.task('zip:dev', ['server'], function() {
     return gulp.src(['build/**/*']).pipe(zip(options.packageName)).pipe(gulp.dest(options.packagePath));
 });
 

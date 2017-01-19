@@ -1,6 +1,6 @@
 {
   "name": "gulp-tasks-azure-publish",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "gulp task for azure plublish",
   "main": "index.js",
   "scripts": {
