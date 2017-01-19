@@ -44,7 +44,7 @@ gulp.task('server', ['services','resources'], function() {
 });
 
 gulp.task('zip', ['server'], function() {
-    return gulp.src(['build/**/*','!build/**/*.map']).pipe(zip(options.packageName)).pipe(gulp.dest(options.packagePath));
+    return gulp.src(['build/**/*','!build/**/*.map',,'!build/**/*.gz']).pipe(zip(options.packageName)).pipe(gulp.dest(options.packagePath));
 });
 
 gulp.task('zip:dev', ['server'], function() {
