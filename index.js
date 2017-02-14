@@ -17,6 +17,7 @@ var options = minimist(process.argv.slice(3), knownOptions);
 var configAmbient = function(json) {
     if (!!options.stg) { return json.stg; }
     if (!!options.prod) { return json.prod; }
+    if (!!options.local) { return json.local; }
     return json.dev;
 }
 
